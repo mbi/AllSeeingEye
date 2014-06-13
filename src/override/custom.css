@@ -200,17 +200,26 @@ h2, h3 {
 .pug-box {
   position: relative;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  min-height: 330px;
+  border-radius: 0
 }
+.pug-box > .caption > h4 {
+  max-height:2.2rem;
+  overflow: hidden;
+}
+
 .pug-box:hover {
   box-shadow: 0px 0px 5px 1px #EE71BA;
   border-color: #EE71BA;
 }
 .pug-box .caption {
-  padding-right: 70px;
+  /*padding-right: 70px;*/
 }
 .pug {
-  border-radius: 4px;
+
+  max-height: 260px;
+  overflow: hidden
 }
 
 .spinner {
@@ -267,6 +276,9 @@ h2, h3 {
   left: 18px;
   margin-bottom: -26px;
   border-top: 1px solid #A50A56;
+}
+.matte-media-box img {
+  border-color: #ccc;
 }
 .exact-match-bottom {
   width: 68px;
@@ -371,3 +383,6 @@ h1.message-from {
 .pug {
     width: 312px;
 }
+
+
+html, body, p { margin: 0; padding: 0; font-family: sans-serif;}

@@ -4,7 +4,7 @@ $(function() {
                             <div class='matte-media-box pug-box'>\
                                 <img class='pug linkable' src='%img'>\
                                 <div class='caption'>\
-                                    <h4 class='caption-name'>%title</h4>\
+                                    <h4 class='caption-name ellipsis'>%title</h4>\
                                     <p class='caption-text'>Last visited: %date</p>%exactMatch\
                                 </div>\
                                 <a class='magnify' title='View Snapshot'>\
